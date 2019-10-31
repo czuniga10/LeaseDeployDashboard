@@ -1,0 +1,25 @@
+.header {
+    width: 100vw;
+    height: 80px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgrey !important;
+}
+
+.exit-holder{
+    padding-right: 50px;
+    color: rgb(168, 168, 168);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.prog {
+    width: 80px;
+    height: 77px;
+}
+
+.img-holder {
+    border: 1px solid lightgrey !important;
+}
