@@ -1,17 +1,18 @@
 import React, {Component} from 'react';
 
 class CheckoutDashboard extends Component {
-    constructor(props) {
+  constructor(props) {
+    super(props)
+      this.state = {
         
-    }
-}
-
-function CheckoutDashboard() {
-  return (
-    <div className="CheckoutDashboard">
-      checkout
-    </div>
-  );
+      }
+  }
+  render() {
+    return (
+      <div className="App">
+      </div>
+    );
+  }
 }
 
 export default CheckoutDashboard;
