@@ -1,4 +1,8 @@
 import React, {Component} from 'react';
+import {data} from '../Data/CheckoutActive.json';
+
+import DashItem from './DashItem';
+import './CheckoutDash.css';
 
 class CheckoutDashboard extends Component {
   constructor(props) {
@@ -7,17 +11,37 @@ class CheckoutDashboard extends Component {
         tickets: []
       }
   }
+
+  componentDidMount() {
+    this.setState({
+      tickets: data
+    })
+  }
+
   render() {
       const tickets = this.state.tickets;
-      const displayTicketItems = tickets.map(ticket => {
+      const displayDashItems = tickets.map(ticket => {
         const index = tickets.indexOf(ticket);
-        return (<TicketItem
+        return (<DashItem
+          key={index}
           id={ticket.id}
-          desc=""
+          desc={ticket.desc}
+          stories={ticket.stories}
+          status={ticket.status}
+          approval={ticket.approval}
         />)
       })
     return (
-      <div className="App">
+      <div className="ticket-wrapper">
+        <div className="title">Checkout - Active</div>
+        <div className="titles-holder">
+          <div className="title-ccsx">Ticket#</div>
+          <div className="desc-ccsx">Description</div>
+          <div className="jira-ccsx">Jira Tickets</div>
+          <div className="status-ccsx">Status</div>
+          <div className="approval-ccsx">Approval</div>
+        </div>
+        {displayDashItems}
       </div>
     );
   }

@@ -1,6 +1,6 @@
 .header {
     width: 100vw;
-    height: 80px;
+    height: 100px;
     background: white;
     display: flex;
     justify-content: space-between;
@@ -16,8 +16,8 @@
 }
 
 .prog {
-    width: 80px;
-    height: 77px;
+    width: 100px;
+    height: 100px;
 }
 
 .img-holder {

@@ -1,51 +1,47 @@
 {
-    "1":
-    {
-        "id": "CCSSX0003774",
-        "desc": "CCM Reminder Eventing and DoVas (off)",
-        "stories": ["THES-1027", "THES-1028", "THES-1011"],
-        "status": "Pipeline",
-        "approval": "Not Yet Requested"
-    },
-    "2":
-    {
-        "id": "CCSSX0003873",
-        "desc": "Angular update and Refactor",
-        "stories": ["THES-841", "THES-1251", "THES-1250", "THES-129"],
-        "status": "Ready for RC",
-        "approval": "Not Yet Requested"
-    },
-    "3":
-    {
-        "id": "CCSSX0003908",
-        "desc": "Document Service re-name",
-        "stories": ["THES-934", "THES-951"],
-        "status": "Pipeline",
-        "approval": "Not Yet Requested"
-    },
-    "4":
-    {
-        "id": "CCSSX0003911",
-        "desc": "Include RLD in Payment Summary screen and the Ready to Sign email",
-        "stories": ["THES-1249", "CCM-1493", "CCM-1494"],
-        "status": "Pipeline",
-        "approval": "Not Yet Requested"
-    },
-    "5":
-    {
-        "id": "CCSSX0003922",
-        "desc": "Certified Spanish Lease Agreements",
-        "stories": ["THES-1285", "THES-1286", "THES-1287","THES-1288", "THES-1289", "THES-1290","THES-1291", "THES-1292", "THES-1293","THES-1294"],
-        "status": "Ready for RC",
-        "approval": "Not Yet Requested"
-    },
-    "6":
-    {
-        "id": "CCSSX0003939",
-        "desc": "Todays payment, TotalCostOfOwnershipWithTax, TotalCostOfOwnershipWithTaxNoDeposit",
-        "stories": ["THES-1023", "IN-2593"],
-        "status": "Pipeline",
-        "approval": "Not Yet Requested"
-    }
-
+    "data":    
+        [
+            {
+                "id": "CCSSX0003922",
+                "desc": "Certified Spanish Lease Agreements",
+                "stories": ["THES-1285"," ", "THES-1286"," ", "THES-1287"," ","THES-1288"," ", "THES-1289"," ", "THES-1290"," ","THES-1291"," ", "THES-1292"," ", "THES-1293"," ","THES-1294"],
+                "status": "RC Testing",
+                "approval": "Not Yet Requested"
+            },
+            {
+                "id": "CCSSX0003873",
+                "desc": "Angular update and Refactor",
+                "stories": ["THES-841", " ", "THES-1251"," ", "THES-1250"," ", "THES-129"],
+                "status": "Ready for RC",
+                "approval": "Not Yet Requested"
+            },
+            {
+                "id": "CCSSX0003774",
+                "desc": "CCM Reminder Eventing and DoVas (off)",
+                "stories": ["THES-1027"," ", "THES-1028"," ", "THES-1011"],
+                "status": "Pipeline",
+                "approval": "Not Yet Requested"
+            },
+            {
+                "id": "CCSSX0003908",
+                "desc": "Document Service re-name",
+                "stories": ["THES-934"," ", "THES-951"],
+                "status": "Pipeline",
+                "approval": "Not Yet Requested"
+            },
+            {
+                "id": "CCSSX0003911",
+                "desc": "Include RLD in Payment Summary screen and the Ready to Sign email",
+                "stories": ["THES-1249"," ", "CCM-1493"," ", "CCM-1494"],
+                "status": "Pipeline",
+                "approval": "Not Yet Requested"
+            },
+            {
+                "id": "CCSSX0003939",
+                "desc": "Todays payment, TotalCostOfOwnershipWithTax, TotalCostOfOwnershipWithTaxNoDeposit",
+                "stories": ["THES-1023"," ", "IN-2593"],
+                "status": "Pipeline",
+                "approval": "Not Yet Requested"
+            }
+        ]
 }
