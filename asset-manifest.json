@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/LeaseDeployDashboard/dashboard/static/css/main.13b9c14a.chunk.css",
+    "main.js": "/LeaseDeployDashboard/dashboard/static/js/main.d668f803.chunk.js",
+    "main.js.map": "/LeaseDeployDashboard/dashboard/static/js/main.d668f803.chunk.js.map",
+    "runtime-main.js": "/LeaseDeployDashboard/dashboard/static/js/runtime-main.95284a93.js",
+    "runtime-main.js.map": "/LeaseDeployDashboard/dashboard/static/js/runtime-main.95284a93.js.map",
+    "static/js/2.7bd8e202.chunk.js": "/LeaseDeployDashboard/dashboard/static/js/2.7bd8e202.chunk.js",
+    "static/js/2.7bd8e202.chunk.js.map": "/LeaseDeployDashboard/dashboard/static/js/2.7bd8e202.chunk.js.map",
+    "index.html": "/LeaseDeployDashboard/dashboard/index.html",
+    "precache-manifest.ba728913c6654eeaeafeb43ec52aa53f.js": "/LeaseDeployDashboard/dashboard/precache-manifest.ba728913c6654eeaeafeb43ec52aa53f.js",
+    "service-worker.js": "/LeaseDeployDashboard/dashboard/service-worker.js",
+    "static/css/main.13b9c14a.chunk.css.map": "/LeaseDeployDashboard/dashboard/static/css/main.13b9c14a.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.95284a93.js",
+    "static/js/2.7bd8e202.chunk.js",
+    "static/css/main.13b9c14a.chunk.css",
+    "static/js/main.d668f803.chunk.js"
+  ]
+}
