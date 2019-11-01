@@ -1,7 +1,7 @@
 {
   "name": "dashboard",
   "version": "0.1.0",
-  "homepage": "https://czuniga10.github.io/LeaseDeployDashboard/dashboard",
+  "homepage": "https://czuniga10.github.io/LeaseDeployDashboard",
   "private": true,
   "dependencies": {
     "gh-pages": "^2.1.1",
