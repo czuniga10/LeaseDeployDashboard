@@ -1,6 +1,7 @@
 {
   "name": "dashboard",
   "version": "0.1.0",
+  "homepage": "https://czuniga10.github.io/LeaseDeployDashboard/dashboard",
   "private": true,
   "dependencies": {
     "react": "^16.11.0",
@@ -12,6 +13,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+
   },
   "eslintConfig": {
     "extends": "react-app"
