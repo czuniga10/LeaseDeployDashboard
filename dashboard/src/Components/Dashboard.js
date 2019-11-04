@@ -1,20 +1,31 @@
 import React, {Component} from 'react';
-import {data} from '../Data/CheckoutActive.json';
+import {checkout} from '../Data/CheckoutActive.json';
+import {cart} from '../Data/CartActive.json';
 
 import DashItem from './DashItem';
-import './CheckoutDash.css';
+import './Dashboard.css';
 
 class CheckoutDashboard extends Component {
   constructor(props) {
     super(props)
       this.state = {
-        tickets: []
+        tickets: [],
+        team: ""
       }
   }
 
   componentDidMount() {
+    let newTeam = this.props.match.path.slice(1);
+    let data = '';
+    if(newTeam === 'Cart') {
+      data = cart;
+    }else {
+      data = checkout;
+    }
+    console.log(newTeam, data)
     this.setState({
-      tickets: data
+      tickets: data,
+      team: newTeam
     })
   }
 
@@ -33,7 +44,7 @@ class CheckoutDashboard extends Component {
       })
     return (
       <div className="ticket-wrapper">
-        <div className="title">Checkout - Active</div>
+        <div className="title">{this.state.team} - Active</div>
         <div className="titles-holder">
           <div className="title-ccsx">Ticket#</div>
           <div className="desc-ccsx">Description</div>

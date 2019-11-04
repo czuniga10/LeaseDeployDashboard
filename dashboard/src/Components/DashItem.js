@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-import './CheckoutDash.css'
+import './Dashboard.css'
 
 class DashItem extends Component {
     constructor(props) {

@@ -1,16 +1,20 @@
 import React from 'react';
+import { Route, withRouter } from 'react-router-dom';
 import './App.css';
 
-import CheckoutDashboard from './Components/CheckoutDash';
+import Dashboard from './Components/Dashboard';
 import Header from './Components/Header';
+import LandingPage from './Components/LandingPage';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <CheckoutDashboard />
+      <Route exact path='/' component={LandingPage} />
+      <Route path='/Checkout' component={Dashboard} />
+      <Route path='/Cart' component={Dashboard} />
     </div>
   );
 }
 
-export default App;
+export default withRouter( (App) );

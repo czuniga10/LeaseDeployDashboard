@@ -1,0 +1,54 @@
+{
+    "cart":    
+        [
+            {
+                "id": "CCSSX0003678",
+                "desc": "CCM Welcome Letter Release 1",
+                "stories": ["CART-26"],
+                "status": "RC Testing",
+                "approval": "Not Yet Requested"
+            },
+            {
+                "id": "CCSSX0003691",
+                "desc": "Cart (v1.0)",
+                "stories": ["CART-107"],
+                "status": "Pipeline",
+                "approval": "Not Yet Requested"
+            },
+            {
+                "id": "CCSSX0003862",
+                "desc": "Ability to associate credit card ledger transactions to its original credit card authorization record",
+                "stories": ["CART-556"," ", "CART-557"," ", "CART-558"," ", "CART-559"],
+                "status": "Pipeline",
+                "approval": "Not Yet Requested"
+            },
+            {
+                "id": "CCSSX0003900",
+                "desc": "Batch fund (rel. 1.3) [emails]",
+                "stories": ["CART-414"],
+                "status": "Pipeline",
+                "approval": "Not Yet Requested"
+            },
+            {
+                "id": "CCSSX0003923",
+                "desc": "Batch Fund (rel 1.5) [legacy AppInsights, etc]",
+                "stories": ["CART-468"],
+                "status": "Pipeline",
+                "approval": "Not Yet Requested"
+            },
+            {
+                "id": "CCSSX0003931",
+                "desc": "LeaseTermsService (Remove UncaughtExceptionHandler Logging)",
+                "stories": ["CART-657"],
+                "status": "Pipeline",
+                "approval": "Not Yet Requested"
+            },
+            {
+                "id": "CCSSX0003933",
+                "desc": "Batch Fund (rel 1.4) [reject file]",
+                "stories": ["CART-655"],
+                "status": "Pipeline",
+                "approval": "Not Yet Requested"
+            }
+        ]
+}
