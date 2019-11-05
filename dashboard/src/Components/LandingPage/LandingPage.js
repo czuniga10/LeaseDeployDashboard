@@ -10,9 +10,6 @@ class LandingPage extends Component {
       }
   }
 
-  componentDidMount() {
-  }
-
   render() {
     return (
       <div className="landing-page-wrapper">

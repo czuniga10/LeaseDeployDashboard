@@ -2,9 +2,9 @@ import React from 'react';
 import { HashRouter, Route, withRouter } from 'react-router-dom';
 import './App.css';
 
-import Dashboard from './Components/Dashboard';
-import Header from './Components/Header';
-import LandingPage from './Components/LandingPage';
+import Dashboard from './Components/Dashboard/Dashboard';
+import Header from './Components/Header/Header';
+import LandingPage from './Components/LandingPage/LandingPage';
 
 function App() {
   return (
