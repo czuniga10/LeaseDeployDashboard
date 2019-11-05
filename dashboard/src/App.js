@@ -8,14 +8,14 @@ import LandingPage from './Components/LandingPage';
 
 function App() {
   return (
-  <HashRouter basename='/'>
-    <div className="App">
-      <Header />
-      <Route exact path='/' component={LandingPage} />
-      <Route path='/Checkout' component={Dashboard} />
-      <Route path='/Cart' component={Dashboard} />
-    </div>
-  </HashRouter>
+    <HashRouter basename='/'>
+      <div className="App">
+        <Header />
+        <Route exact path='/' component={LandingPage} />
+        <Route path='/Checkout' component={Dashboard} />
+        <Route path='/Cart' component={Dashboard} />
+      </div>
+    </HashRouter>
   );
 }
 

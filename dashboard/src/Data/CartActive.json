@@ -5,7 +5,14 @@
                 "id": "CCSSX0003678",
                 "desc": "CCM Welcome Letter Release 1",
                 "stories": ["CART-26"],
-                "status": "RC Testing",
+                "status": "CIO Production Sign-Off",
+                "approval": "Not Yet Requested"
+            },
+            {
+                "id": "CCSSX0003931",
+                "desc": "LeaseTermsService (Remove UncaughtExceptionHandler Logging)",
+                "stories": ["CART-657"],
+                "status": "Ready for RC",
                 "approval": "Not Yet Requested"
             },
             {
@@ -33,13 +40,6 @@
                 "id": "CCSSX0003923",
                 "desc": "Batch Fund (rel 1.5) [legacy AppInsights, etc]",
                 "stories": ["CART-468"],
-                "status": "Pipeline",
-                "approval": "Not Yet Requested"
-            },
-            {
-                "id": "CCSSX0003931",
-                "desc": "LeaseTermsService (Remove UncaughtExceptionHandler Logging)",
-                "stories": ["CART-657"],
                 "status": "Pipeline",
                 "approval": "Not Yet Requested"
             },
