@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 
+import './LandingPage.css';
+
 class LandingPage extends Component {
   constructor(props) {
     super(props)
@@ -14,7 +16,6 @@ class LandingPage extends Component {
   render() {
     return (
       <div className="landing-page-wrapper">
-          landing page
           <Link to={'/Checkout'} >
             <button id="Checkout">Checkout</button>
           </Link>
