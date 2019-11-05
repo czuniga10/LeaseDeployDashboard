@@ -2,14 +2,6 @@
     padding: 20px;
 }
 
-.info-ccsx {
-    display: flex;
-    text-align: left;
-    width: 11%;
-    color: purple;
-    font-weight: bold;
-}
-
 .title-ccsx {
     display: flex;
     justify-content: center;
@@ -43,12 +35,6 @@
     border-bottom: 2pt solid black;
 }
 
-.info-approval {
-    display: flex;
-    text-align: left;
-    width: 11%;
-}
-
 .approval-ccsx {
     display: flex;
     width: 10%;
@@ -56,12 +42,6 @@
     font-size: 24px;
     font-weight: bold;
     border-bottom: 2pt solid black;
-}
-
-.info {
-    display: flex;
-    text-align: left;
-    width: 28%;
 }
 
 .jira-ccsx {
@@ -72,6 +52,26 @@
     font-weight: bold;
     border-bottom: 2pt solid black;
 }
+
+.title {
+    margin: auto;
+    font-size: 50px;
+    font-weight: bold;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.titles-holder {
+    display: flex;
+    max-width: 80%;
+    min-width: 400px;
+    margin-left: 8%;
+    justify-content: center;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+/* DashItem */
 
 .Dash-holder {
     display: flex;
@@ -87,22 +87,24 @@
 .Dash-holder:nth-of-type(2n) {
     background: rgb(226, 226, 226);
     border: solid 1px lightgray;
-  }
+}
 
-  .title {
-    margin: auto;
-    font-size: 50px;
-    font-weight: bold;
-    padding-bottom: 50px;
-    padding-top: 50px;
-  }
-
-  .titles-holder {
+.info {
     display: flex;
-    max-width: 80%;
-    min-width: 400px;
-    margin-left: 8%;
-    justify-content: center;
-    justify-content: space-between;
-    font-size: 20px;
-  }
+    text-align: left;
+    width: 28%;
+}
+
+.info-approval {
+    display: flex;
+    text-align: left;
+    width: 11%;
+}
+
+.info-ccsx {
+    display: flex;
+    text-align: left;
+    width: 11%;
+    color: purple;
+    font-weight: bold;
+}
