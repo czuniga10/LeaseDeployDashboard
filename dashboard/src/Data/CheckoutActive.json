@@ -2,13 +2,6 @@
     "checkout":    
         [
             {
-                "id": "CCSSX0003922",
-                "desc": "Certified Spanish Lease Agreements",
-                "stories": ["THES-1285"," ", "THES-1286"," ", "THES-1287"," ","THES-1288"," ", "THES-1289"," ", "THES-1290"," ","THES-1291"," ", "THES-1292"," ", "THES-1293"," ","THES-1294"],
-                "status": "CIO Production Sign-Off",
-                "approval": "Not Yet Requested"
-            },
-            {
                 "id": "CCSSX0003873",
                 "desc": "Angular update and Refactor",
                 "stories": ["THES-841", " ", "THES-1251"," ", "THES-1250"," ", "THES-129"],
