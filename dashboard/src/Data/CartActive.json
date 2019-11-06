@@ -2,13 +2,6 @@
     "cart":    
         [
             {
-                "id": "CCSSX0003678",
-                "desc": "CCM Welcome Letter Release 1",
-                "stories": ["CART-26"],
-                "status": "Production Deployment",
-                "approval": "Not Yet Requested"
-            },
-            {
                 "id": "CCSSX0003931",
                 "desc": "LeaseTermsService (Remove UncaughtExceptionHandler Logging)",
                 "stories": ["CART-657"],
@@ -47,6 +40,27 @@
                 "id": "CCSSX0003933",
                 "desc": "Batch Fund (rel 1.4) [reject file]",
                 "stories": ["CART-655"],
+                "status": "Pipeline",
+                "approval": "Not Yet Requested"
+            },
+            {
+                "id": "CCSSX0003956",
+                "desc": "MRS & MRPM (ProgLogger v5.3)",
+                "stories": ["CART-177"],
+                "status": "Pipeline",
+                "approval": "Not Yet Requested"
+            },
+            {
+                "id": "CCSSX0003957",
+                "desc": "Lease (ProgLogger v5.3)",
+                "stories": ["CART-178"],
+                "status": "Pipeline",
+                "approval": "Not Yet Requested"
+            },
+            {
+                "id": "CCSSX0003958",
+                "desc": "Schedule Task Runner (ProgLogger v5.3)",
+                "stories": ["CART-703"],
                 "status": "Pipeline",
                 "approval": "Not Yet Requested"
             }
