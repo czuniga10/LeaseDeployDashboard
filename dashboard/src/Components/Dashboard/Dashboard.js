@@ -39,7 +39,7 @@ class CheckoutDashboard extends Component {
           desc={ticket.desc}
           stories={ticket.stories}
           status={ticket.status}
-          approval={ticket.approval}
+          components={ticket.components}
         />)
       })
     return (
@@ -50,7 +50,7 @@ class CheckoutDashboard extends Component {
           <div className="desc-ccsx">Description</div>
           <div className="jira-ccsx">Jira Tickets</div>
           <div className="status-ccsx">Status</div>
-          <div className="approval-ccsx">Approval</div>
+          <div className="approval-ccsx">Components</div>
         </div>
         {displayDashItems}
       </div>

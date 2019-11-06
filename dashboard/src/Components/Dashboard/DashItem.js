@@ -9,7 +9,7 @@ class DashItem extends Component {
         }
     }
     render() {
-        const {id, desc, stories, status, approval} = this.props;
+        const {id, desc, stories, status, components} = this.props;
 
         return(     
             <div className="Dash-holder">
@@ -26,7 +26,7 @@ class DashItem extends Component {
                     {status}
                 </div> 
                 <div className="info-approval" >
-                    {approval}
+                    {components}
                 </div> 
             </div> 
         )
