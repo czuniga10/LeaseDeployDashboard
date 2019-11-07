@@ -31,8 +31,8 @@
             },
             {
                 "id": "CCSSX0003939",
-                "desc": "Todays payment, TotalCostOfOwnershipWithTax, TotalCostOfOwnershipWithTaxNoDeposit",
-                "stories": "THES-1023, IN-2593",
+                "desc": "Consume Today's Payment calculation on Lease Pricing Summary screen",
+                "stories": "THES-1315, THES-1304, THES-1305",
                 "status": "Pipeline",
                 "components": "DataServices, eSign PM, eSignUI"
             }
