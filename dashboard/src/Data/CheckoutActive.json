@@ -2,6 +2,13 @@
     "checkout":    
         [
             {
+                "id": "CCSSX0003908",
+                "desc": "Document Service re-name",
+                "stories": "THES-934, THES-951",
+                "status": "RC Testing",
+                "components": "DocumentService"
+            },
+            {
                 "id": "CCSSX0003873",
                 "desc": "Angular update and Refactor",
                 "stories": "THES-841, THES-1251, THES-1250, THES-129",
@@ -16,13 +23,6 @@
                 "components": "DoVAS, MicroEsign"
             },
             {
-                "id": "CCSSX0003908",
-                "desc": "Document Service re-name",
-                "stories": "THES-934, THES-951",
-                "status": "Pipeline",
-                "components": "DocumentService"
-            },
-            {
                 "id": "CCSSX0003911",
                 "desc": "Include RLD in Payment Summary screen and the Ready to Sign email",
                 "stories": "THES-1249, CCM-1493, CCM-1494",
@@ -35,6 +35,13 @@
                 "stories": "THES-1315, THES-1304, THES-1305",
                 "status": "Pipeline",
                 "components": "DataServices, eSign PM, eSignUI"
+            },
+            {
+                "id": "CCSSX0003972",
+                "desc": "Delivery Fees - Checkout Team",
+                "stories": "THES-1319, THES-1321, THES-1322",
+                "status": "Pipeline",
+                "components": "MicroEsign, eSignProcessing, eSignTracking"
             }
         ]
 }

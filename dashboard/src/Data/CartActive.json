@@ -63,6 +63,13 @@
                 "stories": "CART-703",
                 "status": "Pipeline",
                 "components": "ScheduledTaskRunner"
+            },
+            {
+                "id": "CCSSX0003964",
+                "desc": "Itemization (Delivery Fees v1)",
+                "stories": "CART-706",
+                "status": "Pipeline",
+                "components": "ItemizationAPI"
             }
         ]
 }
