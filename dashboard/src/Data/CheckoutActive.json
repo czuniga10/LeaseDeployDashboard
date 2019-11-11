@@ -44,13 +44,6 @@
                 "components": "MicroEsign, eSignProcessing, eSignTracking"
             },
             {
-                "id": "CCSSX0003972",
-                "desc": "Delivery Fees - Checkout Team",
-                "stories": "THES-1319, THES-1321, THES-1322",
-                "status": "Pipeline",
-                "components": "MicroEsign, eSignProcessing, eSignTracking"
-            },
-            {
                 "id": "CCSSX0003976",
                 "desc": "Add Lease Pricing Summary screen to AAAA and AAA Disclosures",
                 "stories": "THES-1323",
