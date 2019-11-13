@@ -12,7 +12,7 @@
                 "id": "CCSSX0003774",
                 "desc": "Enable CCM to send the eSign Reminder + Disable DoVaS to prevent false negatives",
                 "stories": "THES-1027, THES-1028, THES-1011",
-                "status": "Pipeline",
+                "status": "RC Testing",
                 "components": "DoVAS, MicroEsign"
             },
             {
