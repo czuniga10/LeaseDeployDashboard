@@ -5,7 +5,7 @@
                 "id": "CCSSX0003873",
                 "desc": "Ability to use design system + Using design system loaders + Refactor Lease Pricing Summary page",
                 "stories": "THES-841, THES-1251, THES-1250, THES-129",
-                "status": "RC Testing",
+                "status": "CIO Production Sign-Off",
                 "components": "eSignUI, eSign PM"
             },
             {
