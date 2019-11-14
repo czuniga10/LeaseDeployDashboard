@@ -67,9 +67,23 @@
             {
                 "id": "CCSSX0003964",
                 "desc": "Itemization (Delivery Fees v1)",
-                "stories": "CART-706",
+                "stories": "CART-706, CART-708",
                 "status": "Pipeline",
                 "components": "ItemizationAPI"
+            },
+            {
+                "id": "CCSSX0003983",
+                "desc": "Delivery Fees NuGet Package",
+                "stories": "CART-717",
+                "status": "Pipeline",
+                "components": "LeaseAdminService, MerchandiseReturnsPM"
+            },
+            {
+                "id": "CCSSX0003987",
+                "desc": "GetScheduleData_sp update",
+                "stories": "CART-619",
+                "status": "Pipeline",
+                "components": "DataServices"
             }
         ]
 }
