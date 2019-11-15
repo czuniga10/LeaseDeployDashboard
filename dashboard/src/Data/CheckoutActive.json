@@ -2,13 +2,6 @@
     "checkout":    
         [
             {
-                "id": "CCSSX0003873",
-                "desc": "Ability to use design system + Using design system loaders + Refactor Lease Pricing Summary page",
-                "stories": "THES-841, THES-1251, THES-1250, THES-129",
-                "status": "CIO Production Sign-Off",
-                "components": "eSignUI, eSign PM"
-            },
-            {
                 "id": "CCSSX0003774",
                 "desc": "Enable CCM to send the eSign Reminder + Disable DoVaS to prevent false negatives",
                 "stories": "THES-1027, THES-1028, THES-1011",
