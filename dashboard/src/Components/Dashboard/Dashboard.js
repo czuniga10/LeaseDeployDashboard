@@ -16,13 +16,7 @@ class CheckoutDashboard extends Component {
 
   componentDidMount() {
     let newTeam = this.props.match.path.slice(1);
-    let data = '';
-    if(newTeam === 'Cart') {
-      data = cart;
-    }else {
-      data = checkout;
-    }
-    console.log(newTeam, data)
+    let data = newTeam === 'Cart' ? cart : checkout;
     this.setState({
       tickets: data,
       team: newTeam
