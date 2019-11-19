@@ -84,6 +84,13 @@
                 "stories": "CART-619",
                 "status": "Pipeline",
                 "components": "DataServices"
+            },
+            {
+                "id": "CCSSX0003993",
+                "desc": "CART: Rename of NuGet only software solution",
+                "stories": "CART-763",
+                "status": "Pipeline",
+                "components": "Lease.Common"
             }
         ]
 }

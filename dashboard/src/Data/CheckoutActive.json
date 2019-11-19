@@ -3,16 +3,16 @@
         [
             {
                 "id": "CCSSX0003774",
-                "desc": "Enable CCM to send the eSign Reminder + Disable DoVaS to prevent false negatives",
+                "desc": "Enable CCM to send the eSign Reminder",
                 "stories": "THES-1027, THES-1028, THES-1011",
-                "status": "RC Testing",
-                "components": "DoVAS, MicroEsign"
+                "status": "CIO Production Sign-Off",
+                "components": "MicroEsign"
             },
             {
                 "id": "CCSSX0003911",
                 "desc": "Show the customer RLD in both Checkout payment summary screen and CCM Ready To eSign email",
                 "stories": "THES-1249, CCM-1493, CCM-1494",
-                "status": "Pipeline",
+                "status": "Ready for RC",
                 "components": "eSignUI, CCMOrchestrator, CCMExternal"
             },
             {
@@ -56,6 +56,13 @@
                 "stories": "THES-1335",
                 "status": "Pipeline",
                 "components": "eSignPM"
+            },
+            {
+                "id": "CCSSX0003995",
+                "desc": "Disable DoVaS to prevent false negatives",
+                "stories": "THES-1027",
+                "status": "Pipeline",
+                "components": "DoVAS"
             }
         ]
 }
