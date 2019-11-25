@@ -2,67 +2,82 @@
     "checkout":    
         [
             {
-                "id": "CCSSX0003774",
+                "id": "CCSX0003774",
                 "desc": "Enable CCM to send the eSign Reminder",
                 "stories": "THES-1027, THES-1028, THES-1011",
                 "status": "CIO Production Sign-Off",
                 "components": "MicroEsign"
             },
             {
-                "id": "CCSSX0003911",
+                "id": "CCSX0003911",
                 "desc": "Show the customer RLD in both Checkout payment summary screen and CCM Ready To eSign email",
                 "stories": "THES-1249, CCM-1493, CCM-1494",
-                "status": "Ready for RC",
+                "status": "CIO Production Sign-Off",
                 "components": "eSignUI, CCMOrchestrator, CCMExternal"
             },
             {
-                "id": "CCSSX0003939",
+                "id": "CCSX0003976",
+                "desc": "Enable hard mail of Payment Breakdown page by adding to lease agreement",
+                "stories": "THES-1323",
+                "status": "Ready for RC",
+                "components": "Documents"
+            },
+            {
+                "id": "CCSX0003978",
+                "desc": "Disclosure Text Changes",
+                "stories": "THES-1334",
+                "status": "Ready for RC",
+                "components": "eSignUI"
+            },
+            {
+                "id": "CCSX0003939",
                 "desc": "Consistent data pull of Today's Payment across CCM email, Checkout payment breakdown screen, and eSign lease agreement payment breakdown page",
                 "stories": "THES-1315, THES-1304, THES-1305",
                 "status": "Pipeline",
                 "components": "DataServices, eSign PM, eSignUI"
             },
             {
-                "id": "CCSSX0003972",
+                "id": "CCSX0003972",
                 "desc": "Pull in data points for lease agreement updates (Step 1/2)",
                 "stories": "THES-1319, THES-1321, THES-1322",
                 "status": "Pipeline",
                 "components": "MicroEsign, eSignProcessing, eSignTracking"
             },
             {
-                "id": "CCSSX0003976",
-                "desc": "Enable hard mail of Payment Breakdown page by adding to lease agreement",
-                "stories": "THES-1323",
-                "status": "Pipeline",
-                "components": "Documents"
-            },
-            {
-                "id": "CCSSX0003977",
+                "id": "CCSX0003977",
                 "desc": "Add Delivery Fees in Paragraph 1 on English and Spanish Lease Agreements (Step 2/2)",
                 "stories": "THES-1313",
                 "status": "Pipeline",
                 "components": "Documents"
             },
             {
-                "id": "CCSSX0003978",
-                "desc": "Disclosure Text Changes",
-                "stories": "THES-1334",
-                "status": "Pipeline",
-                "components": "eSignUI"
-            },
-            {
-                "id": "CCSSX0003979",
+                "id": "CCSX0003979",
                 "desc": "C4 - Customer Comprehension Communication Calling",
                 "stories": "THES-1335",
                 "status": "Pipeline",
                 "components": "eSignPM"
             },
             {
-                "id": "CCSSX0003995",
+                "id": "CCSX0003995",
                 "desc": "Disable DoVaS to prevent false negatives",
                 "stories": "THES-1027",
                 "status": "Pipeline",
                 "components": "DoVAS"
+            },
+            {
+                "id": "CCSX0003996",
+                "desc": "Checkout: Total Cost of Ownership in Indiana Lease",
+                "stories": "THES-1023, THES-1024",
+                "status": "Pipeline",
+                "components": "LeaseAcptPM, PointOfSale"
+            },
+            {
+                "id": "CCSX0004002",
+                "desc": "Checkout: Make \"Today's Payment\" datapoint available on the lease agreement",
+                "stories": "THES-1373, THES-1370",
+                "status": "Pipeline",
+                "components": "MicroEsign, CoreServices, TANC, OnlineAp"
             }
+
         ]
 }
