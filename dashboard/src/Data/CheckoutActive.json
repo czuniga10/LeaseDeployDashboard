@@ -33,7 +33,7 @@
                 "id": "CCSX0003939",
                 "desc": "Consistent data pull of Today's Payment across CCM email, Checkout payment breakdown screen, and eSign lease agreement payment breakdown page",
                 "stories": "THES-1315, THES-1304, THES-1305",
-                "status": "Pipeline",
+                "status": "Ready for RC",
                 "components": "DataServices, eSign PM, eSignUI"
             },
             {
@@ -77,6 +77,13 @@
                 "stories": "THES-1373, THES-1370",
                 "status": "Pipeline",
                 "components": "MicroEsign, CoreServices, TANC, OnlineAp"
+            },
+            {
+                "id": "CCSX0004009",
+                "desc": "Esign GRIT update - must go before 3979",
+                "stories": "THES-1318",
+                "status": "Pipeline",
+                "components": "eSignUI"
             }
 
         ]
