@@ -80,7 +80,7 @@
             },
             {
                 "id": "CCSX0004009",
-                "desc": "Esign GRIT update - must go before 3979",
+                "desc": "Checkout: Re-skin the Checkout Portal (ESPN) with GRIT typography, buttons, and fields (Precursor to C4 - CCSX3979)",
                 "stories": "THES-1318",
                 "status": "Pipeline",
                 "components": "eSignUI"
