@@ -5,7 +5,7 @@
                 "id": "CCSX0003774",
                 "desc": "Enable CCM to send the eSign Reminder",
                 "stories": "THES-1027, THES-1028, THES-1011",
-                "status": "CIO Production Sign-Off",
+                "status": "Failed/Rolled Back",
                 "components": "MicroEsign"
             },
             {
@@ -19,21 +19,21 @@
                 "id": "CCSX0003976",
                 "desc": "Enable hard mail of Payment Breakdown page by adding to lease agreement",
                 "stories": "THES-1323",
-                "status": "Ready for RC",
+                "status": "RC Testing",
                 "components": "Documents"
             },
             {
                 "id": "CCSX0003978",
                 "desc": "Disclosure Text Changes",
                 "stories": "THES-1334",
-                "status": "Ready for RC",
+                "status": "RC Testing",
                 "components": "eSignUI"
             },
             {
                 "id": "CCSX0003939",
                 "desc": "Consistent data pull of Today's Payment across CCM email, Checkout payment breakdown screen, and eSign lease agreement payment breakdown page",
                 "stories": "THES-1315, THES-1304, THES-1305",
-                "status": "Ready for RC",
+                "status": "RC Testing",
                 "components": "DataServices, eSign PM, eSignUI"
             },
             {

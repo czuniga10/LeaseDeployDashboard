@@ -91,6 +91,13 @@
                 "stories": "CART-763",
                 "status": "Pipeline",
                 "components": "Lease.Common"
+            },
+            {
+                "id": "CCSSX0004010",
+                "desc": "Delivery Fees NuGet Package",
+                "stories": "CART-695",
+                "status": "Pipeline",
+                "components": "TANC, OnlineApp, PointOfSale, WelcomeLet"
             }
         ]
 }
