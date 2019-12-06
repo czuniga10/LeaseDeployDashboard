@@ -98,6 +98,20 @@
                 "stories": "CART-695",
                 "status": "Pipeline",
                 "components": "TANC, OnlineApp, PointOfSale, WelcomeLet"
+            },
+            {
+                "id": "CCSSX0004018",
+                "desc": "Lease: Get API to return basic lease information",
+                "stories": "CART-178, CART-785",
+                "status": "Pipeline",
+                "components": "Lease"
+            },
+            {
+                "id": "CCSSX0004019",
+                "desc": "Autofund Store Tender Type",
+                "stories": "CART-786, CART-787",
+                "status": "Pipeline",
+                "components": "LeaseAcptPM, AutoFunding Service, DataSevices"
             }
         ]
 }

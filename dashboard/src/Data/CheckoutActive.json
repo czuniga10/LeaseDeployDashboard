@@ -12,28 +12,28 @@
                 "id": "CCSX0003911",
                 "desc": "Show the customer RLD in both Checkout payment summary screen and CCM Ready To eSign email",
                 "stories": "THES-1249, CCM-1493, CCM-1494",
-                "status": "CIO Production Sign-Off",
+                "status": "Demo Deployment",
                 "components": "eSignUI, CCMOrchestrator, CCMExternal"
             },
             {
                 "id": "CCSX0003976",
                 "desc": "Enable hard mail of Payment Breakdown page by adding to lease agreement",
                 "stories": "THES-1323",
-                "status": "RC Testing",
+                "status": "Demo Deployment",
                 "components": "Documents"
             },
             {
                 "id": "CCSX0003978",
                 "desc": "Disclosure Text Changes",
                 "stories": "THES-1334",
-                "status": "RC Testing",
+                "status": "Demo Deployment",
                 "components": "eSignUI"
             },
             {
                 "id": "CCSX0003939",
                 "desc": "Consistent data pull of Today's Payment across CCM email, Checkout payment breakdown screen, and eSign lease agreement payment breakdown page",
                 "stories": "THES-1315, THES-1304, THES-1305",
-                "status": "RC Testing",
+                "status": "Demo Deployment",
                 "components": "DataServices, eSign PM, eSignUI"
             },
             {
