@@ -49,6 +49,13 @@
                 "stories": "THES-1318",
                 "status": "Pipeline",
                 "components": "eSignUI"
+            },
+            {
+                "id": "CCSX0004028",
+                "desc": "Hotfix for eSign PM spike in sql connections",
+                "stories": "THES-1502",
+                "status": "Pipeline",
+                "components": "eSign PM"
             }
 
         ]
