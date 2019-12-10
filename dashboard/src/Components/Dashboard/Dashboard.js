@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import {checkout} from '../../Data/CheckoutActive.json';
-import {cart} from '../../Data/CartActive.json';
+import {checkout} from '../../Data/CheckoutActive.data.json';
+import {cart} from '../../Data/CartActive.data.json';
 
 import DashItem from './DashItem';
 import './Dashboard.css';
