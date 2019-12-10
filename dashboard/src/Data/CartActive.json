@@ -72,13 +72,6 @@
                 "components": "ItemizationAPI"
             },
             {
-                "id": "CCSSX0003983",
-                "desc": "Delivery Fees NuGet Package",
-                "stories": "CART-717",
-                "status": "Pipeline",
-                "components": "LeaseAdminService, MerchandiseReturnsPM"
-            },
-            {
                 "id": "CCSSX0003987",
                 "desc": "GetScheduleData_sp update",
                 "stories": "CART-619",
@@ -112,6 +105,20 @@
                 "stories": "CART-786, CART-787",
                 "status": "Pipeline",
                 "components": "LeaseAcptPM, AutoFunding Service, DataSevices"
+            },
+            {
+                "id": "CCSSX0004026",
+                "desc": "LAPM (ProgLogger v5.3)",
+                "stories": "CART-696",
+                "status": "Pipeline",
+                "components": "LeaseAcptPM"
+            },
+            {
+                "id": "CCSSX0004027",
+                "desc": "Autofunding funding leases with a $0.00 invoice amount",
+                "stories": "CART-811",
+                "status": "Pipeline",
+                "components": "AutoFund Service"
             }
         ]
 }
