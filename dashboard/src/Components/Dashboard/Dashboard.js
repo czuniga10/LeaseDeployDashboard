@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {checkout} from '../../Data/CheckoutActive.data.json';
 import {cart} from '../../Data/CartActive.data.json';
+// import {result} from '../../Data/_checkout.data.json';
 
 import DashItem from './DashItem';
 import './Dashboard.css';
@@ -34,6 +35,13 @@ class CheckoutDashboard extends Component {
           stories={ticket.stories}
           status={ticket.status}
           components={ticket.components}
+          //
+          // UNCOMMENT WHEN API SERVICE IS UP 
+          // id={ticket.number.display_value}
+          // desc={ticket.short_description.display_value}
+          // stories={ticket.jira_stories.display_value}
+          // status={ticket.status.display_value}
+          // components={ticket.u_cmdb_ci.display_value}
         />)
       })
     return (
